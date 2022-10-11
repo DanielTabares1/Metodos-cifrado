@@ -5,6 +5,7 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 class Codechef
 {
+    //Se realiza el cifrado cesar con +25 mod 30 como unidad de desplazamiento, la llave para descifrar es +5 mod 30 
     static String simbolos = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,_.?";
 
     public static void main(String[] args) {

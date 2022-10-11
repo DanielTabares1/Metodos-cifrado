@@ -10,8 +10,9 @@ class Codechef
     
 	public static void main (String[] args) throws java.lang.Exception
 	{
+	    //Se realiza el cifrado afin con la fórmula y = (7x+3) mod 30 y con llave de descifrado x = (13y +21) mod 30 
 	    String mensaje = "KXBELJMY?DJMDMQLYLJ";
-        System.out.println(decodificarMensaje(mensaje));
+            System.out.println(decodificarMensaje(mensaje));
 	}
 	
 	public static String decodificarMensaje(String s){
