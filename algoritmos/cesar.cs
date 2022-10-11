@@ -6,6 +6,7 @@ public class Test
     
 	public static void Main()
 	{
+		//Se realiza el cifrado cesar con +25 mod 30 como unidad de desplazamiento, la llave para descifrar es +5 mod 30 
 		string mensaje = ",P?IJNW.DZNWZWOJ.JN";
 		Console.WriteLine(decodificarMensaje(mensaje));
 	}
